@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/fpdf/create', 'FpdfCreate@createPdf');
+//Route::get('foo', 'Photos\AdminController@method');
